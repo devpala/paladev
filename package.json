@@ -2,7 +2,7 @@
   "name": "frontend-paladesing",
   "version": "0.0.0",
   "scripts": {
-    "auto":"git add . && git commit -m \"auto\" && git push origin master && ng b --prod &&  firebase deploy",
+    "auto": "git add . && git commit -m \"auto\" && git push origin master && ng b --prod &&  firebase deploy",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -20,6 +20,7 @@
     "@angular/platform-browser": "~9.0.3",
     "@angular/platform-browser-dynamic": "~9.0.3",
     "@angular/router": "~9.0.3",
+    "paladesing": "^1.4.3",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"

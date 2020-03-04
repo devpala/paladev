@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/paladesing/main.scss",
               "src/styles.scss"
             ],
             "scripts": []
