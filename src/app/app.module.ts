@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { CodigosComponent } from './inicio/codigos/codigos.component';
 import { CopiarPegarComponent } from './inicio/copiar-pegar/copiar-pegar.component';
 import { LoginCompletoComponent } from './inicio/login-completo/login-completo.component';
+import { BarraMenuComponent } from './inicio/barra-menu/barra-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CodigosComponent,
     CopiarPegarComponent,
-    LoginCompletoComponent
+    LoginCompletoComponent,
+    BarraMenuComponent
   ],
   imports: [
     BrowserModule,
