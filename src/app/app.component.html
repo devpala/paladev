@@ -1,17 +1,10 @@
-<div class="main-g-c-1 main-center main-g-g-10">
-  <div>
-    <button (click)="restar()">-</button> 
-    <span> height {{ numero_de_columna }}</span> 
-    <button (click)="sumar()">+</button>
-    <button (click)="restar()">-</button> 
-    <span>{{ numero_de_columna }} columnas</span> 
-    <button (click)="sumar()">+</button>
-  </div>
-  <div class="container-code main-g-centro main-radius-8 main-ancho-50" >
-    <pre #codeValue>&lt;div class="main-g-c-{{ numero_de_columna }} main-border"&gt;&lt;/div&gt;</pre>
-  </div>
-  <button class="main-g-centro main-radius-8 main-ancho-50" (click)="copy()">copiar codigo</button>
-  <span> {{ message }} </span>
+<div class="main-g-c-6 ">
+    <div class="main-g-c-1">
+        <a routerLink="codigos">mostrar codigos</a>
+        <a routerLink="copiar-pegar">copiar y pegar</a>
+        <a routerLink="login-completo">login completo</a>
+    </div>
+    <div class="main-g-c-2-1 main-border">
+        <router-outlet></router-outlet>
+    </div>
 </div>
-<div class="main-g-c-10 main-border main-alto-50"></div>
-

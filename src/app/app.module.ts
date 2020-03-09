@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CodigosComponent } from './inicio/codigos/codigos.component';
+import { CopiarPegarComponent } from './inicio/copiar-pegar/copiar-pegar.component';
+import { LoginCompletoComponent } from './inicio/login-completo/login-completo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CodigosComponent,
+    CopiarPegarComponent,
+    LoginCompletoComponent
   ],
   imports: [
     BrowserModule,
