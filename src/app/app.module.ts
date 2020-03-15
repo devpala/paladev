@@ -7,6 +7,7 @@ import { CodigosComponent } from './inicio/codigos/codigos.component';
 import { CopiarPegarComponent } from './inicio/copiar-pegar/copiar-pegar.component';
 import { LoginCompletoComponent } from './inicio/login-completo/login-completo.component';
 import { BarraMenuComponent } from './inicio/barra-menu/barra-menu.component';
+import { PalafireComponent } from './palafire/palafire.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BarraMenuComponent } from './inicio/barra-menu/barra-menu.component';
     CodigosComponent,
     CopiarPegarComponent,
     LoginCompletoComponent,
-    BarraMenuComponent
+    BarraMenuComponent,
+    PalafireComponent,
   ],
   imports: [
     BrowserModule,

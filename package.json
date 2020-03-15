@@ -1,6 +1,6 @@
 {
-  "name": "frontend-paladesing",
-  "version": "0.0.0",
+  "name": "paladev-paladesign",
+  "version": "0.0.2",
   "scripts": {
     "auto": "git add . && git commit -m \"auto\" && git push origin master && ng b --prod &&  firebase deploy",
     "ng": "ng",
@@ -20,6 +20,7 @@
     "@angular/platform-browser": "~9.0.3",
     "@angular/platform-browser-dynamic": "~9.0.3",
     "@angular/router": "~9.0.3",
+    "paladesign": "^1.8.8",
     "paladesing": "^1.7.6",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
